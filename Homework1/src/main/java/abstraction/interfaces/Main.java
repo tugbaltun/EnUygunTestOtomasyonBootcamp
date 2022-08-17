@@ -1,4 +1,4 @@
-package org.example.abstraction.interfaces;
+package abstraction.interfaces;
 
 public class Main {
     public static void main(String[] args) {

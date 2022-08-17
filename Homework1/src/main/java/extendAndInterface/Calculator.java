@@ -1,4 +1,4 @@
-package org.example.extendAndInterface;
+package extendAndInterface;
 
 public class Calculator {
     public int result;

@@ -1,5 +1,3 @@
-package org.example;
-
 import junit.framework.TestCase;
 import org.junit.AfterClass;
 import org.junit.Assert;
@@ -19,10 +17,10 @@ public class OpenBrowserTest extends TestCase {
 
     public void testMain() {
         try{
-            Path resourceDirectory = Paths.get("ProjectEnUygun","src","main", "resources");
+            Path resourceDirectory = Paths.get("src","main");
             String absolutePath = resourceDirectory.toFile().getAbsolutePath();
             System.out.println(absolutePath);
-            System.setProperty("webdriver.chrome.driver", absolutePath+"\\binary\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", absolutePath+"\\resources\\binary\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             String url = "https://demoqa.com/webtables";

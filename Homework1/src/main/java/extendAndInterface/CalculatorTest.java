@@ -1,4 +1,4 @@
-package org.example.extendAndInterface;
+package extendAndInterface;
 
 public class CalculatorTest extends Calculator implements ICalculator  {
     public int result;

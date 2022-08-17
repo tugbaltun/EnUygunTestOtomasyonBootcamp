@@ -1,4 +1,4 @@
-package org.example.extendAndInterface;
+package extendAndInterface;
 
 public interface ICalculator {
     void add(int num1, int num2);

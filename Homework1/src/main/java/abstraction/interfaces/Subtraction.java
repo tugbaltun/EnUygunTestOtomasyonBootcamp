@@ -1,4 +1,4 @@
-package org.example.abstraction.interfaces;
+package abstraction.interfaces;
 
 public class Subtraction implements Calculator{
 

@@ -1,4 +1,4 @@
-package org.example.abstraction.abstracts;
+package abstraction.abstracts;
 
 import java.sql.SQLOutput;
 

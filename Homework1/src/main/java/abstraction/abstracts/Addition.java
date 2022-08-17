@@ -1,4 +1,4 @@
-package org.example.abstraction.abstracts;
+package abstraction.abstracts;
 
 public class Addition extends  Calculator{
     @Override
