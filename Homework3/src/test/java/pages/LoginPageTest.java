@@ -3,7 +3,6 @@ package pages;
 import browsers.BrowserFactory;
 import exceptions.BrowserException;
 import locatorContainers.LoginPageContainer;
-import org.apache.commons.logging.Log;
 import org.junit.Assert;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -11,8 +10,6 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class LoginPageTest {
 

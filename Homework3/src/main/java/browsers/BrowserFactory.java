@@ -2,7 +2,6 @@ package browsers;
 
 import exceptions.BrowserException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BrowserFactory {
     private static WebDriver driver;
